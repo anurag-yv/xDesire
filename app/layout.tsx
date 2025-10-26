@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className="bg-gray-100 text-gray-900 min-h-screen">
         <nav className="bg-white shadow-md py-4 px-8 flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-indigo-600">
-            TrendyCart 🛍️
+            xDesires 🛍️
           </Link>
 
           <div className="flex items-center gap-6">
