@@ -14,7 +14,7 @@ export default function AdminPage() {
   const [orders, setOrders] = useState([]);
   const [view, setView] = useState("products"); // toggle between 'products' and 'orders'
 
-  // Fetch all products
+  
   const fetchProducts = async () => {
     const res = await fetch("/api/products");
     const data = await res.json();
